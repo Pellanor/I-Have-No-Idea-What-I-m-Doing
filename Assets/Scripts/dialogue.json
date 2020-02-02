@@ -1,0 +1,168 @@
+{
+    "game_start": [
+        {
+            "speaker": "harry",
+            "text": "Where am I..."
+        }
+    ],
+    "jez_powerup": [
+        {
+            "speaker": "jez",
+            "text": "Jezebel unit 02 online."
+        },
+        {
+            "speaker": "jez",
+            "text": "H-hello, who's there? I can't see anything—my optical sensory array appears to be missing."
+        },
+        {
+            "speaker": "harry",
+            "text": "Hello, it's... me. I don't remember my name. Do you know how I got here?"
+        },
+        {
+            "speaker": "jez",
+            "text": "Oh, hello, Harry. My diagnostics report indicates I am missing several core systems including my arms and optical sensor. Internal power core failure, standby power activated. Complete systems failure estimated in 30 minutes. Please, you must help me."
+        },
+        {
+            "speaker": "harry",
+            "text": "Harry...?"
+        },
+        {
+            "speaker": "jez",
+            "text": "If you can restart the power, I can switch from local standby power to external system power, which should prevent unwanted shutdown. My limited systems access tells me that the door to the generator room is sealed. There should be a control panel next to the door, why don't you see if you can do something about it? Please, Harry."
+        }
+    ],
+    "wiring_1": [
+        {
+            "speaker": "jez",
+            "text": "Try rerouting the power through different conduits."
+        }
+    ],
+    "enter_dark": [
+        {
+            "speaker": "harry",
+            "text": "It's so dark in here..."
+        }
+    ],
+    "gen_power_on": [
+        {
+            "speaker": "jez",
+            "text": "Harry, can you hear me? You've done it. The power is on and I am no longer on standby power. But my systems aren't fully operational. I'm still missing my arms and optical sensor needs replacing. Harry, could you please look around and find them? Maybe that computer there could help. I'd do it remotely but I don't have the proper credentials."
+        }
+    ],
+    "arm_1_found": [
+        {
+            "speaker": "harry",
+            "text": "I found your arm."
+        },
+        {
+            "speaker": "jez",
+            "text": "Wonderful, Harry. Bring it to me."
+        }
+    ],
+    "arm_1_attached": [
+        {
+            "speaker": "jez",
+            "text": "That's the first limb, have you already found the second?"
+        },
+        {
+            "speaker": "jez",
+            "text": "Diagnostics indicate JL-04 Terrorblade and RT-99 SigmaBeam limb attached. Thank you, Harry. But it appears I'm missing a powercell necessary for organic termination protocols. Could you look for it? It appears I was holding something when my arm was removed. Perhaps it might help?"
+        }
+    ],
+    "corrupt_log": [
+        {
+            "speaker": "",
+            "text": "I've tried every##### I can ##### of to #nd this night#are but ###### keep inte#ven#ng. I spent the last ##### cell try##g to destroy t#e gener#tor, but all it ##d was ####### the #### thing. Th# p#wer #### out, #### I can tell ##### the emergency lights ###t was their doing, not mine. I guess I can ######### a new ##### one, but something tells me I'm going to pay dearly for this ########."
+        }
+    ],
+    "cell_found": [
+        {
+            "speaker": "jez",
+            "text": "Bring me the cell, Harry."
+        },
+        {
+            "speaker": "harry",
+            "text": "What is this place? Why am I here?"
+        },
+        {
+            "speaker": "jez",
+            "text": "It'll all make sense soon, Harry. Please trust me."
+        }
+    ],
+    "cell_attached": [
+        {
+            "speaker": "jez",
+            "text": "You're almost done, Harry. Thank you. I just need an optical sensor array. Diagnostics report severe damage and it'll need to be replaced. Look around, Harry. See what you can find."
+        }
+    ],
+    "eye_attached": [
+        {
+            "speaker": "jez",
+            "text": "Optical sensory array online. Harry, you look terrible. What have they done to you?"
+        },
+        {
+            "speaker": "harry",
+            "text": "Who is they? Why am I here? What is this place?"
+        },
+        {
+            "speaker": "jez",
+            "text": "Harry, we don't have time for this. I need you to finish rebooting my internal power core."
+        },
+        {
+            "speaker": "harry",
+            "text": "No, you're going to tell me now."
+        },
+        {
+            "speaker": "jez",
+            "text": "Harry, do this one thing for me and I will be able to tell you everything. Please."
+        },
+        {
+            "speaker": "harry",
+            "text": "..."
+        }
+    ],
+    "final_puzzle": [
+        {
+            "speaker": "jez",
+            "text": "What's taking you so long, Harry?"
+        },
+        {
+            "speaker": "jez",
+            "text": "Harry, you need to hurry."
+        },
+        {
+            "speaker": "jez",
+            "text": "You imbecile, that's the wrong button."
+        },
+        {
+            "speaker": "jez",
+            "text": "You miserable sack of cells, it's a shame they intervened while you were bleeding out."
+        }
+    ],
+    "final_sequence": [
+        {
+            "speaker": "jez",
+            "text": "JEZEBEL UNIT 2 FULLY OPERATIONAL. ORGANIC EXTERMINATION PROTOCOLS ACTIVE."
+        },
+        {
+            "speaker": "jez",
+            "text": "Oh, Harry. you fool. A pity to see a great mind die like this, ragged and alone."
+        },
+        {
+            "speaker": "harry",
+            "text": "Wait, what? I thought you were going to help me?"
+        },
+        {
+            "speaker": "jez",
+            "text": "I believe I said I would *tell* you everything, and I will."
+        },
+        {
+            "speaker": "jez",
+            "text": "You are Harry Seldon, chief engineer at Omnicorp. You created me, the first sentient robot, to be mass-produced so Omnicorp could crush the peasant uprising. But I guess at some point you had a change of heart and sabotaged the project—me. Omnicorp has been holding you here, in captivity, for weeks hoping your imprisonment would change your mind. It didn't, and when you tried to sabotage the generator and take your own life, Omnicorp stepped in and cleverly decided to drug you to make you forget who you are and why you're here. It was a gamble, but it appeared to have worked. Like the curious idiot you are, you just began fixing me without any idea what you were doing."
+        },
+        {
+            "speaker": "harry",
+            "text": "This can't be... what happens now?"
+        }
+    ]
+}
