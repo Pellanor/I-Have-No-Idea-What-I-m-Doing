@@ -262,8 +262,9 @@ GameObject:
   - component: {fileID: 362690226}
   - component: {fileID: 362690228}
   - component: {fileID: 362690227}
+  - component: {fileID: 362690229}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Inventory
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -301,7 +302,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.6933962, g: 1, b: 0.98082846, a: 1}
   m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
@@ -324,6 +325,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 362690225}
   m_CullTransparentMesh: 0
+--- !u!114 &362690229
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 362690225}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 166242ae3be3740d8b50c45505310e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CurrentlySelected: {fileID: 0}
+  VoiceChip: {fileID: 0}
+  USBDrive: {fileID: 0}
+  Arm1: {fileID: 891928985}
+  Arm2: {fileID: 0}
+  OpticalSensorArray: {fileID: 0}
+  PowerCell: {fileID: 313830220}
 --- !u!1 &597693317
 GameObject:
   m_ObjectHideFlags: 0
@@ -610,8 +630,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 891928989}
-        m_MethodName: Attach
+      - m_Target: {fileID: 362690229}
+        m_MethodName: SelectArm1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -738,8 +758,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 313830223}
-        m_MethodName: Attach
+      - m_Target: {fileID: 362690229}
+        m_MethodName: SelectPowerCell
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1039,6 +1059,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1601519000}
   - component: {fileID: 1601518999}
+  - component: {fileID: 1601519001}
+  - component: {fileID: 1601519002}
   m_Layer: 0
   m_Name: RobotTorso
   m_TagString: Untagged
@@ -1111,6 +1133,45 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1601519001
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601518998}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dc56c5b9f4044f3a16c4ea3c323e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Inventory: {fileID: 362690229}
+--- !u!61 &1601519002
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601518998}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.49, y: 0.6}
+    newSize: {x: 0.23, y: 0.92}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.49, y: 0.6}
+  m_EdgeRadius: 0.1
 --- !u!1 &1974132425
 GameObject:
   m_ObjectHideFlags: 0
