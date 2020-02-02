@@ -5,6 +5,7 @@ using UnityEngine.EventSystems;
 
 public class Narrative : MonoBehaviour,
                              IPointerDownHandler,
+                             IPointerUpHandler,
                              IPointerEnterHandler,
                              IPointerExitHandler
 {
@@ -13,7 +14,7 @@ public class Narrative : MonoBehaviour,
 
     public bool Readable = true;
 
-    public string DefaultConversationKey;
+    public string ConversationKey;
 
     public PopupConversation popup;
 
@@ -52,7 +53,7 @@ public class Narrative : MonoBehaviour,
         if(Readable)
         {
             Debug.Log("Cursor entering: " + eventData.pointerCurrentRaycast.gameObject.name);
-            Cursor.SetCursor(SpyGlassCursor, SpyGlassOffset, CursorMode.Auto);
+            //Cursor.SetCursor(SpyGlassCursor, SpyGlassOffset, CursorMode.Auto);
         }
     }
 
@@ -74,9 +75,11 @@ public class Narrative : MonoBehaviour,
     {
         if(Readable)
         {
-            Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
-            Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
-            popup.LoadConversation(GetConversation());
+            if(eventData.button == PointerEventData.InputButton.Right)
+            {
+                Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
+                Cursor.SetCursor(SpyGlassCursor, SpyGlassOffset, CursorMode.Auto);
+            }
         }
     }
 
@@ -86,6 +89,17 @@ public class Narrative : MonoBehaviour,
                 return conv.conversationKey;
             }
         }
-        return DefaultConversationKey;
+        return ConversationKey;
+    }
+
+    public void OnPointerUp(PointerEventData eventData)
+    {
+        if(Readable)
+        {
+            if(eventData.button == PointerEventData.InputButton.Right)
+            {
+                popup.LoadConversation(GetConversation());
+            }
+        }
     }
 }

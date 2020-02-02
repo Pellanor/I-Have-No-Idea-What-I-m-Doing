@@ -242,11 +242,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  SpyGlassOffset: {x: 5, y: 5}
-  Viewable: 1
+  Readable: 1
   ConversationKey: instruction_manual
   popup: {fileID: 930324668}
+  conversations: []
 --- !u!1 &96744794
 GameObject:
   m_ObjectHideFlags: 0
@@ -368,11 +367,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  SpyGlassOffset: {x: 5, y: 5}
-  Viewable: 1
+  Readable: 1
   ConversationKey: voice_chip
   popup: {fileID: 930324668}
+  conversations: []
 --- !u!1 &593323429
 GameObject:
   m_ObjectHideFlags: 0
@@ -741,11 +739,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  SpyGlassOffset: {x: 5, y: 5}
-  Viewable: 1
+  Readable: 1
   ConversationKey: jez3bel
   popup: {fileID: 930324668}
+  conversations: []
 --- !u!1 &1044113397
 GameObject:
   m_ObjectHideFlags: 0
@@ -756,6 +753,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1044113398}
   - component: {fileID: 1044113399}
+  - component: {fileID: 1044113400}
   m_Layer: 0
   m_Name: Door to Generator Room
   m_TagString: Untagged
@@ -803,6 +801,24 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.54036546, y: 1.3683256}
   m_EdgeRadius: 0
+--- !u!114 &1044113400
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044113397}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf276704cccc34243bf9478a52761c8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnterCursorSprite: {fileID: 2800000, guid: 6e54d9fe874e34aebaa4867d4c2b3370, type: 3}
+  EnterCursorOffset: {x: 5, y: 5}
+  NoEntryCursorSprite: {fileID: 2800000, guid: 3d3cf9af2757942a6b14f0f49d6b6d8a, type: 3}
+  NoEntryCursorOffset: {x: 5, y: 5}
+  NextSceneName: Generator Room
+  Enterable: 0
 --- !u!1001 &1104380318
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -946,7 +962,7 @@ MonoBehaviour:
   EnterCursorOffset: {x: 5, y: 5}
   NoEntryCursorSprite: {fileID: 0}
   NoEntryCursorOffset: {x: 0, y: 0}
-  NextSceneName: 
+  NextSceneName: Bedroom
   Enterable: 1
 --- !u!1 &1351842309
 GameObject:
@@ -1430,11 +1446,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  SpyGlassOffset: {x: 5, y: 5}
-  Viewable: 1
+  Readable: 1
   ConversationKey: computer_robot_off
   popup: {fileID: 930324668}
+  conversations: []
 --- !u!1 &1720554563
 GameObject:
   m_ObjectHideFlags: 0
@@ -1564,11 +1579,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  SpyGlassOffset: {x: 5, y: 5}
-  Viewable: 1
+  Readable: 1
   ConversationKey: power_cable
   popup: {fileID: 930324668}
+  conversations: []
 --- !u!1 &1853606316
 GameObject:
   m_ObjectHideFlags: 0

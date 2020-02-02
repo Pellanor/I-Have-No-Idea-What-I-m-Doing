@@ -374,11 +374,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  SpyGlassOffset: {x: 5, y: 5}
-  Viewable: 1
+  Readable: 1
   ConversationKey: camera
   popup: {fileID: 916768364}
+  conversations: []
 --- !u!1 &157723362
 GameObject:
   m_ObjectHideFlags: 0
@@ -460,6 +459,8 @@ GameObject:
   - component: {fileID: 257434772}
   - component: {fileID: 257434774}
   - component: {fileID: 257434773}
+  - component: {fileID: 257434775}
+  - component: {fileID: 257434776}
   m_Layer: 0
   m_Name: Door
   m_TagString: Untagged
@@ -557,6 +558,40 @@ SpriteRenderer:
   m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &257434775
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257434771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Readable: 1
+  ConversationKey: door
+  popup: {fileID: 916768364}
+  conversations: []
+--- !u!114 &257434776
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257434771}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf276704cccc34243bf9478a52761c8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnterCursorSprite: {fileID: 2800000, guid: 6e54d9fe874e34aebaa4867d4c2b3370, type: 3}
+  EnterCursorOffset: {x: 5, y: 5}
+  NoEntryCursorSprite: {fileID: 0}
+  NoEntryCursorOffset: {x: 0, y: 0}
+  NextSceneName: Robot Room
+  Enterable: 1
 --- !u!1 &441127937
 GameObject:
   m_ObjectHideFlags: 0
@@ -744,11 +779,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  SpyGlassOffset: {x: 5, y: 5}
-  Viewable: 1
+  Readable: 1
   ConversationKey: toilet
   popup: {fileID: 916768364}
+  conversations: []
 --- !u!1 &461671552
 GameObject:
   m_ObjectHideFlags: 0
@@ -870,11 +904,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  SpyGlassOffset: {x: 5, y: 5}
-  Viewable: 1
+  Readable: 1
   ConversationKey: photograph
   popup: {fileID: 916768364}
+  conversations: []
 --- !u!1 &506037624
 GameObject:
   m_ObjectHideFlags: 0
@@ -996,11 +1029,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  SpyGlassOffset: {x: 5, y: 5}
-  Viewable: 1
+  Readable: 1
   ConversationKey: food_tray
   popup: {fileID: 916768364}
+  conversations: []
 --- !u!1 &677291293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1176,11 +1208,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  SpyGlassOffset: {x: 5, y: 5}
-  Viewable: 1
+  Readable: 1
   ConversationKey: blood_stain
   popup: {fileID: 916768364}
+  conversations: []
 --- !u!1001 &853386394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1450,11 +1481,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  SpyGlassOffset: {x: 5, y: 5}
-  Viewable: 1
+  Readable: 1
   ConversationKey: notches
   popup: {fileID: 916768364}
+  conversations: []
 --- !u!1 &1269126846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1576,11 +1606,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  SpyGlassOffset: {x: 5, y: 5}
-  Viewable: 1
+  Readable: 1
   ConversationKey: mirror
   popup: {fileID: 916768364}
+  conversations: []
 --- !u!1 &1626619078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1823,11 +1852,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  SpyGlassOffset: {x: 5, y: 5}
-  Viewable: 1
+  Readable: 1
   ConversationKey: bed
   popup: {fileID: 916768364}
+  conversations: []
 --- !u!1 &1804302057
 GameObject:
   m_ObjectHideFlags: 0
