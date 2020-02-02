@@ -7,29 +7,55 @@ using UnityEngine.UI;
 public class PopupConversation : MonoBehaviour
 {
     public Text text;
-    public GameObject face;
+    public Image face;
     public PopupOpener opener;
     public DialogEngine engine;
 
+    [System.Serializable]
+    public struct NamedImage {
+        public string name;
+        public Sprite image;
+    }
+    public NamedImage[] pictures;
+
     private JSONNode.Enumerator conversation;
+    private Dictionary<string, Sprite> faces = new Dictionary<string, Sprite>();
+
+    public void Start() {
+        foreach(NamedImage pic in pictures) {
+            faces.Add(pic.name, pic.image);
+        }
+    }
 
     public void LoadConversation(string conversationKey) {
+        Debug.Log("Loading: " + conversationKey);
         conversation = engine.getConversationIter(conversationKey);
         if (conversation.MoveNext()) {
             JSONNode line = conversation.Current.Value;
             text.text = line["text"];
+            face.sprite = getSprite(line["speaker"]);
             opener.OpenPopup();
         }
     }
 
     public void Next() {
-        text.text = conversation.Current.Value["text"];
+        JSONNode line = conversation.Current.Value;
+        text.text = line["text"];
+        face.sprite = getSprite(line["speaker"]);
         if (conversation.MoveNext()) {
-            text.text = conversation.Current.Value["text"];
+            line = conversation.Current.Value;
+            text.text = line["text"];
+            face.sprite = getSprite(line["speaker"]);
         } else {
             opener.ClosePopup();
         }
     }
 
+    private Sprite getSprite(string key) {
+        if (faces.ContainsKey(key.ToLower())) {
+            return faces[key.ToLower()];
+        }
+        return faces["harry"];
+    }
     
 }

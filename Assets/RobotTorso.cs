@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class Receiver : MonoBehaviour,
-                        IPointerDownHandler,
-                        IPointerEnterHandler,
-                        IPointerExitHandler
+public class RobotTorso : MonoBehaviour,
+                          IPointerDownHandler,
+                          IPointerEnterHandler,
+                          IPointerExitHandler
 {
     public Inventory Inventory;
 
@@ -52,6 +52,8 @@ public class Receiver : MonoBehaviour,
         {
             robotPart.Attach();
             ResetCursor();
+        } else {
+          Debug.Log("DIALOG: You cannot do this.");
         }
     }
 

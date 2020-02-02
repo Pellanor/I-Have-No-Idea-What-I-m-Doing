@@ -3,32 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class RobotPartHandler : MonoBehaviour,
+public class Narrative : MonoBehaviour,
                              IPointerDownHandler,
                              IPointerEnterHandler,
                              IPointerExitHandler
 {
     public Texture2D SpyGlassCursor;
-    public Texture2D GrabHandCursor;
     public Vector2 SpyGlassOffset;
-    public Vector2 GrabHandOffset;
 
-    public float MoveSpeed;
+    public bool Viewable = true;
 
-    public Vector3 InventoryLocation;
-    public Vector3 AttachedLocation;
+    public string ConversationKey;
 
-    public bool Pickupable = true;
-
-    Vector3 destination;
-    float Timer;
+    public GameObject FacePopup;
 
     // Start is called before the first frame update
     void Start()
     {
         addPhysics2DRaycaster();
-        
-        destination = this.transform.position;
     }
 
     /**
@@ -49,10 +41,10 @@ public class RobotPartHandler : MonoBehaviour,
       */
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if(Pickupable)
+        if(Viewable)
         {
             Debug.Log("Cursor entering: " + eventData.pointerCurrentRaycast.gameObject.name);
-            Cursor.SetCursor(GrabHandCursor, GrabHandOffset, CursorMode.Auto);
+            Cursor.SetCursor(SpyGlassCursor, SpyGlassOffset, CursorMode.Auto);
         }
     }
 
@@ -72,38 +64,12 @@ public class RobotPartHandler : MonoBehaviour,
       */
     public void OnPointerDown(PointerEventData eventData)
     {
-        if(Pickupable)
+        if(Viewable)
         {
             Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
             Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
-            destination = InventoryLocation;
+            PopupConversation pc = FacePopup.GetComponent<PopupConversation>();
+            pc.LoadConversation(ConversationKey);
         }
-    }
-
-    /**
-      * Update is called once per frame
-      * Handles animating movement of robot part into inventory.
-      */
-    void Update()
-    {
-        Vector3 selfPosition = this.transform.position;
-        Timer += Time.deltaTime * MoveSpeed;
-
-        if (selfPosition != destination)
-        {
-            this.transform.position = Vector3.MoveTowards(selfPosition, destination, Timer);
-        }
-    }
-
-    /**
-    * Moves the robot part to which this script is attached, to the configured 
-    * position (intended for 'attaching' parts to the robot).
-    */
-    public void Attach()
-    {
-        Debug.Log("Attaching " + this.name);
-        Pickupable = false;
-        this.transform.position = AttachedLocation;
-        destination = AttachedLocation;
     }
 }
