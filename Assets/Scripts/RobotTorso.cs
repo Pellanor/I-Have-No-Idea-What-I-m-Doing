@@ -5,7 +5,6 @@ using UnityEngine.EventSystems;
 
 public class RobotTorso : MonoBehaviour,
                           IPointerDownHandler,
-                          // IPointerUpHandler,
                           IPointerEnterHandler,
                           IPointerExitHandler
 {
@@ -42,14 +41,6 @@ public class RobotTorso : MonoBehaviour,
     {
         Debug.Log("Cursor entering: " + eventData.pointerCurrentRaycast.gameObject.name);
         Cursor.SetCursor(HandCursor, HandCursorOffset, CursorMode.Auto);
-        // if(Enterable)
-        // {
-        //     Cursor.SetCursor(EnterCursorSprite, EnterCursorOffset, CursorMode.Auto);
-        // }
-        // else
-        // {
-        //     Cursor.SetCursor(NoEntryCursorSprite, NoEntryCursorOffset, CursorMode.Auto);
-        // }
     }
 
     /**
