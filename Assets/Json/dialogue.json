@@ -368,5 +368,12 @@
             "speaker": "",
             "text": "Try selecting something in your inventory."
         }
+    ],
+    "too_dark": [
+        {
+            "speaker": "",
+            "text": "It's too dark to see."
+        }
     ]
+
 }

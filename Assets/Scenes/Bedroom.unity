@@ -245,6 +245,7 @@ GameObject:
   - component: {fileID: 144700716}
   - component: {fileID: 144700715}
   - component: {fileID: 144700718}
+  - component: {fileID: 144700719}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -378,6 +379,19 @@ MonoBehaviour:
   ConversationKey: camera
   popup: {fileID: 916768364}
   conversations: []
+--- !u!114 &144700719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144700713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 916768364}
 --- !u!1 &157723362
 GameObject:
   m_ObjectHideFlags: 0
@@ -670,6 +684,7 @@ GameObject:
   - component: {fileID: 451265081}
   - component: {fileID: 451265080}
   - component: {fileID: 451265082}
+  - component: {fileID: 451265083}
   m_Layer: 0
   m_Name: Toilet
   m_TagString: Untagged
@@ -783,6 +798,19 @@ MonoBehaviour:
   ConversationKey: toilet
   popup: {fileID: 916768364}
   conversations: []
+--- !u!114 &451265083
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451265078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 916768364}
 --- !u!1 &461671552
 GameObject:
   m_ObjectHideFlags: 0
@@ -795,6 +823,7 @@ GameObject:
   - component: {fileID: 461671555}
   - component: {fileID: 461671554}
   - component: {fileID: 461671556}
+  - component: {fileID: 461671557}
   m_Layer: 0
   m_Name: Photograph
   m_TagString: Untagged
@@ -908,6 +937,19 @@ MonoBehaviour:
   ConversationKey: photograph
   popup: {fileID: 916768364}
   conversations: []
+--- !u!114 &461671557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461671552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 916768364}
 --- !u!1 &506037624
 GameObject:
   m_ObjectHideFlags: 0
@@ -920,6 +962,7 @@ GameObject:
   - component: {fileID: 506037627}
   - component: {fileID: 506037626}
   - component: {fileID: 506037628}
+  - component: {fileID: 506037629}
   m_Layer: 0
   m_Name: Food Tray
   m_TagString: Untagged
@@ -1033,6 +1076,19 @@ MonoBehaviour:
   ConversationKey: food_tray
   popup: {fileID: 916768364}
   conversations: []
+--- !u!114 &506037629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506037624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 916768364}
 --- !u!1 &677291293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1109,6 +1165,7 @@ GameObject:
   - component: {fileID: 773082035}
   - component: {fileID: 773082034}
   - component: {fileID: 773082036}
+  - component: {fileID: 773082037}
   m_Layer: 0
   m_Name: Bloodstain
   m_TagString: Untagged
@@ -1212,6 +1269,19 @@ MonoBehaviour:
   ConversationKey: blood_stain
   popup: {fileID: 916768364}
   conversations: []
+--- !u!114 &773082037
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773082032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 916768364}
 --- !u!1001 &853386394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1360,6 +1430,7 @@ GameObject:
   - component: {fileID: 1243003273}
   - component: {fileID: 1243003272}
   - component: {fileID: 1243003274}
+  - component: {fileID: 1243003275}
   m_Layer: 0
   m_Name: Wall Lines
   m_TagString: Untagged
@@ -1485,6 +1556,19 @@ MonoBehaviour:
   ConversationKey: notches
   popup: {fileID: 916768364}
   conversations: []
+--- !u!114 &1243003275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243003270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 916768364}
 --- !u!1 &1269126846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1497,6 +1581,7 @@ GameObject:
   - component: {fileID: 1269126849}
   - component: {fileID: 1269126848}
   - component: {fileID: 1269126850}
+  - component: {fileID: 1269126851}
   m_Layer: 0
   m_Name: Mirror
   m_TagString: Untagged
@@ -1610,6 +1695,19 @@ MonoBehaviour:
   ConversationKey: mirror
   popup: {fileID: 916768364}
   conversations: []
+--- !u!114 &1269126851
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269126846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 916768364}
 --- !u!1 &1626619078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1743,6 +1841,7 @@ GameObject:
   - component: {fileID: 1791934254}
   - component: {fileID: 1791934253}
   - component: {fileID: 1791934255}
+  - component: {fileID: 1791934256}
   m_Layer: 0
   m_Name: Bed
   m_TagString: Untagged
@@ -1856,6 +1955,19 @@ MonoBehaviour:
   ConversationKey: bed
   popup: {fileID: 916768364}
   conversations: []
+--- !u!114 &1791934256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791934251}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 916768364}
 --- !u!1 &1804302057
 GameObject:
   m_ObjectHideFlags: 0
