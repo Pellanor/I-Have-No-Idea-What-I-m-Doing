@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +12,7 @@ public class GameState
         LOCKER_OPEN,
         USB_IN_COMPUTER,
         COMPUTER_FULL_ACCESS,
-        HAS_POWER_CELL
+        HAS_POWER_CELL,
     }
 
     private static HashSet<State> states = new HashSet<State>();
@@ -26,5 +27,10 @@ public class GameState
 
     public static void ClearState(State state) {
         states.Remove(state);
+    }
+
+    internal static void SetState(object lOCKER_OPEN)
+    {
+        throw new NotImplementedException();
     }
 }
