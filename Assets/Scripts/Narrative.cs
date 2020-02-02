@@ -8,19 +8,27 @@ public class Narrative : MonoBehaviour,
                              IPointerEnterHandler,
                              IPointerExitHandler
 {
-    public Texture2D SpyGlassCursor;
-    public Vector2 SpyGlassOffset = new Vector2(5, 5);
+    Texture2D SpyGlassCursor;
+    Vector2 SpyGlassOffset = new Vector2(5, 5);
 
-    public bool Viewable = true;
+    public bool Readable = true;
 
-    public string ConversationKey;
+    public string DefaultConversationKey;
 
     public PopupConversation popup;
+
+    [System.Serializable]
+    public struct ConversationState {
+        public GameState.State state;
+        public string conversationKey;
+    }
+    public ConversationState[] conversations;
 
     // Start is called before the first frame update
     void Start()
     {
         addPhysics2DRaycaster();
+        this.SpyGlassCursor = (Texture2D)Resources.Load("MouseCursors/spyglass32");
     }
 
     /**
@@ -41,7 +49,7 @@ public class Narrative : MonoBehaviour,
       */
     public void OnPointerEnter(PointerEventData eventData)
     {
-        if(Viewable)
+        if(Readable)
         {
             Debug.Log("Cursor entering: " + eventData.pointerCurrentRaycast.gameObject.name);
             Cursor.SetCursor(SpyGlassCursor, SpyGlassOffset, CursorMode.Auto);
@@ -64,11 +72,20 @@ public class Narrative : MonoBehaviour,
       */
     public void OnPointerDown(PointerEventData eventData)
     {
-        if(Viewable)
+        if(Readable)
         {
             Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
             Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
-            popup.LoadConversation(ConversationKey);
+            popup.LoadConversation(GetConversation());
         }
+    }
+
+    private string GetConversation() {
+        foreach (ConversationState conv in conversations) {
+            if (GameState.IsState(conv.state)) {
+                return conv.conversationKey;
+            }
+        }
+        return DefaultConversationKey;
     }
 }

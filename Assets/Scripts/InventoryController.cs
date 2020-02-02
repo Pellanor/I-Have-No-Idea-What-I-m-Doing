@@ -5,20 +5,15 @@ using UnityEngine.UI;
 
 public class InventoryController : MonoBehaviour
 {
-    private GameController gameController;
     public GameObject leftArm;
     public GameObject rightArm;
     public GameObject eye;
     public GameObject weapon;
-    // Start is called before the first frame update
-    void Start()
-    {
-        gameController = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameController>();
-    }
 
     // Update is called once per frame
     void Update()
     {
+        /*
         if (gameController.hasLeftArm) {
             leftArm.GetComponent<Image>().color = new Color (1, 1, 1, 1); 
         } else {
@@ -42,5 +37,6 @@ public class InventoryController : MonoBehaviour
         } else {
             weapon.GetComponent<Image>().color = new Color (1, 1, 1, 0); 
         }
+        */
     }
 }

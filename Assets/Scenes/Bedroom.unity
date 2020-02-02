@@ -1298,6 +1298,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: User Interface
       objectReference: {fileID: 0}
+    - target: {fileID: 8523417426144173024, guid: 5dee435a83716400a84c79435f25edcf,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dee435a83716400a84c79435f25edcf, type: 3}
 --- !u!114 &916768364 stripped
