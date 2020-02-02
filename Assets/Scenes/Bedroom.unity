@@ -244,6 +244,7 @@ GameObject:
   - component: {fileID: 144700717}
   - component: {fileID: 144700716}
   - component: {fileID: 144700715}
+  - component: {fileID: 144700718}
   m_Layer: 0
   m_Name: Camera
   m_TagString: Untagged
@@ -361,6 +362,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &144700718
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 144700713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
+  SpyGlassOffset: {x: 5, y: 5}
+  Viewable: 1
+  ConversationKey: camera
+  popup: {fileID: 916768364}
 --- !u!1 &157723362
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,6 +634,7 @@ GameObject:
   - component: {fileID: 451265079}
   - component: {fileID: 451265081}
   - component: {fileID: 451265080}
+  - component: {fileID: 451265082}
   m_Layer: 0
   m_Name: Toilet
   m_TagString: Untagged
@@ -713,6 +732,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &451265082
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451265078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
+  SpyGlassOffset: {x: 5, y: 5}
+  Viewable: 1
+  ConversationKey: toilet
+  popup: {fileID: 916768364}
 --- !u!1 &461671552
 GameObject:
   m_ObjectHideFlags: 0
@@ -724,6 +760,7 @@ GameObject:
   - component: {fileID: 461671553}
   - component: {fileID: 461671555}
   - component: {fileID: 461671554}
+  - component: {fileID: 461671556}
   m_Layer: 0
   m_Name: Photograph
   m_TagString: Untagged
@@ -821,6 +858,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &461671556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 461671552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
+  SpyGlassOffset: {x: 5, y: 5}
+  Viewable: 1
+  ConversationKey: photograph
+  popup: {fileID: 916768364}
 --- !u!1 &506037624
 GameObject:
   m_ObjectHideFlags: 0
@@ -832,6 +886,7 @@ GameObject:
   - component: {fileID: 506037625}
   - component: {fileID: 506037627}
   - component: {fileID: 506037626}
+  - component: {fileID: 506037628}
   m_Layer: 0
   m_Name: Food Tray
   m_TagString: Untagged
@@ -929,6 +984,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &506037628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 506037624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
+  SpyGlassOffset: {x: 5, y: 5}
+  Viewable: 1
+  ConversationKey: food_tray
+  popup: {fileID: 916768364}
 --- !u!1 &677291293
 GameObject:
   m_ObjectHideFlags: 0
@@ -1004,6 +1076,7 @@ GameObject:
   - component: {fileID: 773082033}
   - component: {fileID: 773082035}
   - component: {fileID: 773082034}
+  - component: {fileID: 773082036}
   m_Layer: 0
   m_Name: Bloodstain
   m_TagString: Untagged
@@ -1091,6 +1164,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &773082036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 773082032}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
+  SpyGlassOffset: {x: 5, y: 5}
+  Viewable: 1
+  ConversationKey: blood_stain
+  popup: {fileID: 916768364}
 --- !u!1001 &853386394
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1210,12 +1300,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5dee435a83716400a84c79435f25edcf, type: 3}
---- !u!1 &916768363 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8523417425809399345, guid: 5dee435a83716400a84c79435f25edcf,
+--- !u!114 &916768364 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8523417425809399307, guid: 5dee435a83716400a84c79435f25edcf,
     type: 3}
   m_PrefabInstance: {fileID: 853386394}
   m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc66720d58c885a4e820d6a55838d667, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1243003270
 GameObject:
   m_ObjectHideFlags: 0
@@ -1227,6 +1323,7 @@ GameObject:
   - component: {fileID: 1243003271}
   - component: {fileID: 1243003273}
   - component: {fileID: 1243003272}
+  - component: {fileID: 1243003274}
   m_Layer: 0
   m_Name: Wall Lines
   m_TagString: Untagged
@@ -1336,6 +1433,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1243003274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1243003270}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
+  SpyGlassOffset: {x: 5, y: 5}
+  Viewable: 1
+  ConversationKey: notches
+  popup: {fileID: 916768364}
 --- !u!1 &1269126846
 GameObject:
   m_ObjectHideFlags: 0
@@ -1347,6 +1461,7 @@ GameObject:
   - component: {fileID: 1269126847}
   - component: {fileID: 1269126849}
   - component: {fileID: 1269126848}
+  - component: {fileID: 1269126850}
   m_Layer: 0
   m_Name: Mirror
   m_TagString: Untagged
@@ -1444,6 +1559,23 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &1269126850
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1269126846}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
+  SpyGlassOffset: {x: 5, y: 5}
+  Viewable: 1
+  ConversationKey: mirror
+  popup: {fileID: 916768364}
 --- !u!1 &1626619078
 GameObject:
   m_ObjectHideFlags: 0
@@ -1690,7 +1822,7 @@ MonoBehaviour:
   SpyGlassOffset: {x: 5, y: 5}
   Viewable: 1
   ConversationKey: bed
-  FacePopup: {fileID: 916768363}
+  popup: {fileID: 916768364}
 --- !u!1 &1804302057
 GameObject:
   m_ObjectHideFlags: 0

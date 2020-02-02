@@ -27,6 +27,14 @@ public class PopupConversation : MonoBehaviour
         }
     }
 
+    public void Update() {
+        
+        if (opener.IsOpen() && Input.GetMouseButtonDown(0)) {
+            Next();
+        }
+        
+    }
+
     public void LoadConversation(string conversationKey) {
         Debug.Log("Loading: " + conversationKey);
         conversation = engine.getConversationIter(conversationKey);
@@ -39,15 +47,17 @@ public class PopupConversation : MonoBehaviour
     }
 
     public void Next() {
-        JSONNode line = conversation.Current.Value;
-        text.text = line["text"];
-        face.sprite = getSprite(line["speaker"]);
-        if (conversation.MoveNext()) {
-            line = conversation.Current.Value;
+        if (opener.IsOpen()) {
+            JSONNode line = conversation.Current.Value;
             text.text = line["text"];
             face.sprite = getSprite(line["speaker"]);
-        } else {
-            opener.ClosePopup();
+            if (conversation.MoveNext()) {
+                line = conversation.Current.Value;
+                text.text = line["text"];
+                face.sprite = getSprite(line["speaker"]);
+            } else {
+                opener.ClosePopup();
+            }
         }
     }
 

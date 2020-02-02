@@ -9,13 +9,13 @@ public class Narrative : MonoBehaviour,
                              IPointerExitHandler
 {
     public Texture2D SpyGlassCursor;
-    public Vector2 SpyGlassOffset;
+    public Vector2 SpyGlassOffset = new Vector2(5, 5);
 
     public bool Viewable = true;
 
     public string ConversationKey;
 
-    public GameObject FacePopup;
+    public PopupConversation popup;
 
     // Start is called before the first frame update
     void Start()
@@ -68,8 +68,7 @@ public class Narrative : MonoBehaviour,
         {
             Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
             Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
-            PopupConversation pc = FacePopup.GetComponent<PopupConversation>();
-            pc.LoadConversation(ConversationKey);
+            popup.LoadConversation(ConversationKey);
         }
     }
 }
