@@ -18,7 +18,7 @@ public class NoPickup : MonoBehaviour,
     void Start()
     {
         addPhysics2DRaycaster();
-        this.HandCursor = (Texture2D)Resources.Load("MouseCursors/grabhand32");
+        this.HandCursor = (Texture2D)Resources.Load("MouseCursors/new-hand32");
     }
 
     /**
@@ -62,8 +62,8 @@ public class NoPickup : MonoBehaviour,
       if(eventData.button == PointerEventData.InputButton.Left)
       {
           popup.LoadConversation("cannot_do");
+          ResetCursor();
       }
-      ResetCursor();
     }
 
     private void ResetCursor()

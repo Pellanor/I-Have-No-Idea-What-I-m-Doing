@@ -8,6 +8,7 @@ public class WirePuzzle : MonoBehaviour
     public Tilemap ActionTiles;
     public Tilemap WireTiles;
     public int steps;
+    public PopupConversation popup;
     public List<string> dialog;
     public VictoryCondition victoryCondition;
     private int tileIndex = 0;
@@ -32,8 +33,18 @@ public class WirePuzzle : MonoBehaviour
     }
 
     private void UpdateTiles() {
+        ShowDialog();
         UpdateTileMap(ActionTiles);
         UpdateTileMap(WireTiles);
+    }
+
+    private void ShowDialog() {
+        if (tileIndex < dialog.Count -1) {
+            string key = dialog[tileIndex];
+            if (key != "") {
+                popup.LoadConversation(key);
+            }
+        }
     }
 
     private void UpdateTileMap(Tilemap map) {

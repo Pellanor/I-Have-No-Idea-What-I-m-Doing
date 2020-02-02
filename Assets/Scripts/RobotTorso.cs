@@ -18,7 +18,7 @@ public class RobotTorso : MonoBehaviour,
     void Start()
     {
         addPhysics2DRaycaster();
-        this.HandCursor = (Texture2D)Resources.Load("MouseCursors/grabhand32");
+        this.HandCursor = (Texture2D)Resources.Load("MouseCursors/new-hand32");
     }
 
     /**

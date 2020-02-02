@@ -29,7 +29,7 @@ public class Narrative : MonoBehaviour,
     void Start()
     {
         addPhysics2DRaycaster();
-        this.SpyGlassCursor = (Texture2D)Resources.Load("MouseCursors/spyglass32");
+        this.SpyGlassCursor = (Texture2D)Resources.Load("MouseCursors/new-spyglass32");
     }
 
     /**
@@ -73,11 +73,14 @@ public class Narrative : MonoBehaviour,
       */
     public void OnPointerDown(PointerEventData eventData)
     {
+        Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
         if(Readable)
         {
+            Debug.Log("Readable");
             if(eventData.button == PointerEventData.InputButton.Right)
             {
-                Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
+                Debug.Log("Right click");
+                Debug.Log("Setting: " + SpyGlassCursor);
                 Cursor.SetCursor(SpyGlassCursor, SpyGlassOffset, CursorMode.Auto);
             }
         }

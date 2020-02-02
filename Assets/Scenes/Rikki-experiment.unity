@@ -465,8 +465,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e48f1b39c1d424cf0bed9a8dfa960140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  SpyGlassCursor: {fileID: 2800000, guid: 4dab8533e648748d8be6dc05e158d032, type: 3}
-  GrabHandCursor: {fileID: 2800000, guid: 84fbe77a5fc1a4a888adf98197a14d80, type: 3}
+  SpyGlassCursor: {fileID: 2800000, guid: a6c4ab054d010457c9d4ead55336c23d, type: 3}
+  GrabHandCursor: {fileID: 2800000, guid: df2e0f071d37e416a99f373e6a8f10ea, type: 3}
   SpyGlassOffset: {x: 10, y: 10}
   GrabHandOffset: {x: 10, y: 20}
   MoveSpeed: 0.075
