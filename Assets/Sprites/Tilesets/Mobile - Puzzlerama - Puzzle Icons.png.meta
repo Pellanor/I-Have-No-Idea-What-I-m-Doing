@@ -1,0 +1,499 @@
+fileFormatVersion: 2
+guid: da6dfe7a1978c3f4ea3d6f3af0f6daa9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8972988603239330720
+    second: Mobile - Puzzlerama - Puzzle Icons_0
+  - first:
+      213: -1867171842608043432
+    second: Mobile - Puzzlerama - Puzzle Icons_1
+  - first:
+      213: 8844034167414735517
+    second: Mobile - Puzzlerama - Puzzle Icons_2
+  - first:
+      213: 7005617509435658042
+    second: Mobile - Puzzlerama - Puzzle Icons_3
+  - first:
+      213: 5410822183503473629
+    second: Mobile - Puzzlerama - Puzzle Icons_4
+  - first:
+      213: 2173566923085816076
+    second: Mobile - Puzzlerama - Puzzle Icons_5
+  - first:
+      213: -5988598560056209631
+    second: Mobile - Puzzlerama - Puzzle Icons_6
+  - first:
+      213: -1644061268047647584
+    second: Mobile - Puzzlerama - Puzzle Icons_7
+  - first:
+      213: 7120035919821725073
+    second: Mobile - Puzzlerama - Puzzle Icons_8
+  - first:
+      213: 2917053564254412584
+    second: Mobile - Puzzlerama - Puzzle Icons_9
+  - first:
+      213: -6901256980928358265
+    second: Mobile - Puzzlerama - Puzzle Icons_10
+  - first:
+      213: -1025554353812886496
+    second: Mobile - Puzzlerama - Puzzle Icons_11
+  - first:
+      213: -5589880300974292584
+    second: Mobile - Puzzlerama - Puzzle Icons_12
+  - first:
+      213: 1093990107070662954
+    second: Mobile - Puzzlerama - Puzzle Icons_13
+  - first:
+      213: 3572853976540653253
+    second: Mobile - Puzzlerama - Puzzle Icons_14
+  - first:
+      213: 3003876887322161456
+    second: Mobile - Puzzlerama - Puzzle Icons_15
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_0
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 4057
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06c8a42086a897380800000000000000
+      internalID: -8972988603239330720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_1
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 4057
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a6cb21a197616e0800000000000000
+      internalID: -1867171842608043432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_2
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 4057
+        width: 67
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d924c22b7325cba70800000000000000
+      internalID: 8844034167414735517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_4
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 3989
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddb278eab1a171b40800000000000000
+      internalID: 5410822183503473629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_3
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 4057
+        width: 72
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f4b2ae104f83160800000000000000
+      internalID: 7005617509435658042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_5
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3989
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01a11ab99f0a2e10800000000000000
+      internalID: 2173566923085816076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_6
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 3989
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12f0f6da65934eca0800000000000000
+      internalID: -5988598560056209631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3989
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0acaa01ccfe1f29e0800000000000000
+      internalID: -1644061268047647584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_8
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3921
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19ddefc02f27fc260800000000000000
+      internalID: 7120035919821725073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_9
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 3921
+        width: 69
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82fdb20f2c47b7820800000000000000
+      internalID: 2917053564254412584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_10
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3921
+        width: 67
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788941c175fc930a0800000000000000
+      internalID: -6901256980928358265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_11
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 3921
+        width: 72
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ca023bfbf74c1f0800000000000000
+      internalID: -1025554353812886496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_12
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 3850
+        width: 70
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89149739b71cc62b0800000000000000
+      internalID: -5589880300974292584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_13
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 3850
+        width: 69
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a290db7c432ae2f00800000000000000
+      internalID: 1093990107070662954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_14
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 3850
+        width: 67
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c62c0a03c3559130800000000000000
+      internalID: 3572853976540653253
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Mobile - Puzzlerama - Puzzle Icons_15
+      rect:
+        serializedVersion: 2
+        x: 406
+        y: 3850
+        width: 72
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 031f7d12d1aefa920800000000000000
+      internalID: 3003876887322161456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
