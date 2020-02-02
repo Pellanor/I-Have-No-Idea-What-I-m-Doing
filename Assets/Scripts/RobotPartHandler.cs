@@ -31,6 +31,9 @@ public class RobotPartHandler : MonoBehaviour,
         destination = this.transform.position;
     }
 
+    /**
+      * Attaches a 2D Raycaster component to the camera, so pointer handling works
+      */
     void addPhysics2DRaycaster()
     {
         Physics2DRaycaster physicsRaycaster = GameObject.FindObjectOfType<Physics2DRaycaster>();
@@ -40,6 +43,10 @@ public class RobotPartHandler : MonoBehaviour,
         }
     }
 
+    /**
+      * Handle mouse moving onto the robot part.
+      * This sets the cursor.
+      */
     public void OnPointerEnter(PointerEventData eventData)
     {
         if(Pickupable)
@@ -50,7 +57,8 @@ public class RobotPartHandler : MonoBehaviour,
     }
 
     /**
-      *
+      * Handles mouse moving off the robot part.
+      * This resets the cursor.
       */
     public void OnPointerExit(PointerEventData eventData)
     {
@@ -79,8 +87,6 @@ public class RobotPartHandler : MonoBehaviour,
     void Update()
     {
         Vector3 selfPosition = this.transform.position;
-        // Debug.Log(Time.deltaTime);
-        Debug.Log("FPS: " + (Mathf.FloorToInt(60.0f/Time.deltaTime)));
         Timer += Time.deltaTime * MoveSpeed;
 
         if (selfPosition != destination)

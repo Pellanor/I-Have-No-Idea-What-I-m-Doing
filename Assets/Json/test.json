@@ -1,0 +1,12 @@
+{
+	"testKey": [
+		{
+			"speaker": "HARRY",
+			"text": "Hey Bob, how you doing?"
+		},
+		{
+			"speaker": "BOB",
+			"text": "Not so hot Harry."
+		}
+	]
+}

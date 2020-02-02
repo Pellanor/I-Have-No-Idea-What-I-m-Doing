@@ -132,6 +132,8 @@ GameObject:
   - component: {fileID: 2726676}
   - component: {fileID: 2726678}
   - component: {fileID: 2726677}
+  - component: {fileID: 2726680}
+  - component: {fileID: 2726679}
   m_Layer: 5
   m_Name: UI
   m_TagString: Untagged
@@ -196,6 +198,32 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2726675}
   m_CullTransparentMesh: 0
+--- !u!114 &2726679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2726675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc838b7ae8e5854eb960d225b37f0d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogJson: {fileID: 0}
+--- !u!114 &2726680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2726675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc838b7ae8e5854eb960d225b37f0d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogJson: {fileID: 0}
 --- !u!1 &157643248
 GameObject:
   m_ObjectHideFlags: 0
@@ -644,6 +672,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Popup: {fileID: 733798811}
+  dialogEngine: {fileID: 1068508237}
 --- !u!95 &733798816
 Animator:
   serializedVersion: 3
@@ -825,6 +854,7 @@ GameObject:
   - component: {fileID: 1068508235}
   - component: {fileID: 1068508234}
   - component: {fileID: 1068508236}
+  - component: {fileID: 1068508237}
   m_Layer: 5
   m_Name: Popup
   m_TagString: Untagged
@@ -909,6 +939,19 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &1068508237
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1068508232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0fc838b7ae8e5854eb960d225b37f0d5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogJson: {fileID: 4900000, guid: 10b5181f4ae616c43b94b5693dee2be4, type: 3}
 --- !u!1 &1124503325
 GameObject:
   m_ObjectHideFlags: 0
@@ -1328,7 +1371,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16aec6aa5acdc41db896bd276c18d20a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameController: {fileID: 1927710527}
   leftArm: {fileID: 949296634}
   rightArm: {fileID: 371213962}
   eye: {fileID: 1124503325}
