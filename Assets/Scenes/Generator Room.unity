@@ -618,6 +618,7 @@ GameObject:
   - component: {fileID: 489003170}
   - component: {fileID: 489003169}
   - component: {fileID: 489003171}
+  - component: {fileID: 489003172}
   m_Layer: 0
   m_Name: Generator
   m_TagString: Untagged
@@ -731,6 +732,24 @@ MonoBehaviour:
   ConversationKey: generator
   popup: {fileID: 822239987}
   conversations: []
+--- !u!114 &489003172
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 489003167}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf276704cccc34243bf9478a52761c8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnterCursorSprite: {fileID: 2800000, guid: df2e0f071d37e416a99f373e6a8f10ea, type: 3}
+  EnterCursorOffset: {x: 5, y: 5}
+  NoEntryCursorSprite: {fileID: 0}
+  NoEntryCursorOffset: {x: 0, y: 0}
+  NextSceneName: WirePuzzle
+  Enterable: 1
 --- !u!1 &528149022
 GameObject:
   m_ObjectHideFlags: 0
@@ -779,6 +798,7 @@ GameObject:
   - component: {fileID: 540580034}
   - component: {fileID: 540580033}
   - component: {fileID: 540580035}
+  - component: {fileID: 540580036}
   m_Layer: 0
   m_Name: Computer
   m_TagString: Untagged
@@ -894,6 +914,24 @@ MonoBehaviour:
   conversations:
   - state: 1
     conversationKey: computer_terminal
+--- !u!114 &540580036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 540580031}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cf276704cccc34243bf9478a52761c8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnterCursorSprite: {fileID: 2800000, guid: df2e0f071d37e416a99f373e6a8f10ea, type: 3}
+  EnterCursorOffset: {x: 5, y: 5}
+  NoEntryCursorSprite: {fileID: 0}
+  NoEntryCursorOffset: {x: 0, y: 0}
+  NextSceneName: ComputerTerminal1
+  Enterable: 1
 --- !u!1 &766518588
 GameObject:
   m_ObjectHideFlags: 0

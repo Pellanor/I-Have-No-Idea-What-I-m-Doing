@@ -661,7 +661,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   NextSceneName: Generator Room
-  StateToSet: 0
+  StateToSet: 1
 --- !u!1 &1223338035
 GameObject:
   m_ObjectHideFlags: 0
