@@ -356,5 +356,17 @@
             "speaker": "toolbox",
             "text": "A rusted-stained toolbox with a scattering of tools."
         }
+    ],
+    "cannot_do": [
+        {
+            "speaker": "",
+            "text": "You cannot do that."
+        }
+    ],
+    "select_inventory": [
+        {
+            "speaker": "",
+            "text": "Try selecting something in your inventory."
+        }
     ]
 }

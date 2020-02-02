@@ -3,17 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class RobotTorso : MonoBehaviour,
+public class NoPickup : MonoBehaviour,
                           IPointerDownHandler,
                           // IPointerUpHandler,
                           IPointerEnterHandler,
                           IPointerExitHandler
 {
-    public Inventory Inventory;
-    public PopupConversation popup;
     
     Texture2D HandCursor;
     Vector2 HandCursorOffset = new Vector2(5, 5);
+    public PopupConversation popup;
     
     // Start is called before the first frame update
     void Start()
@@ -42,14 +41,6 @@ public class RobotTorso : MonoBehaviour,
     {
         Debug.Log("Cursor entering: " + eventData.pointerCurrentRaycast.gameObject.name);
         Cursor.SetCursor(HandCursor, HandCursorOffset, CursorMode.Auto);
-        // if(Enterable)
-        // {
-        //     Cursor.SetCursor(EnterCursorSprite, EnterCursorOffset, CursorMode.Auto);
-        // }
-        // else
-        // {
-        //     Cursor.SetCursor(NoEntryCursorSprite, NoEntryCursorOffset, CursorMode.Auto);
-        // }
     }
 
     /**
@@ -70,31 +61,9 @@ public class RobotTorso : MonoBehaviour,
     {
       if(eventData.button == PointerEventData.InputButton.Left)
       {
-        Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
-
-        string name = this.Inventory.GetCurrentlySelectedName();
-        // GameObject selected = this.Inventory.GetCurrentlySelected();
-        // RobotPartHandler robotPart = selected.GetComponent<RobotPartHandler>();
-
-        if(name == null || name == "")
-        {
-          popup.LoadConversation("select_inventory");
-        } else if(name == "VoiceChip") {
-
-        } else if(name == "PowerCell") {
-
-        } else if(name == "Arm1") {
-
-        } else if(name == "Arm2") {
-
-        } else if(name == "OpticalSensorArray") {
-
-        } else {
           popup.LoadConversation("cannot_do");
-        }
-        //robotPart.Attach();
-        ResetCursor();
       }
+      ResetCursor();
     }
 
     private void ResetCursor()

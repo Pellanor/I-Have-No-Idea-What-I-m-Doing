@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 313830221}
   - component: {fileID: 313830224}
   - component: {fileID: 313830225}
+  - component: {fileID: 313830223}
   m_Layer: 0
   m_Name: RobotHead
   m_TagString: Untagged
@@ -205,6 +206,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &313830223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 313830220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 1817743726}
 --- !u!61 &313830224
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -274,15 +288,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 597693317}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cf276704cccc34243bf9478a52761c8b, type: 3}
+  m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EnterCursorSprite: {fileID: 2800000, guid: 6e54d9fe874e34aebaa4867d4c2b3370, type: 3}
-  EnterCursorOffset: {x: 16, y: 16}
-  NoEntryCursorSprite: {fileID: 2800000, guid: 3d3cf9af2757942a6b14f0f49d6b6d8a, type: 3}
-  NoEntryCursorOffset: {x: 16, y: 16}
-  NextSceneName: 
-  Enterable: 1
+  popup: {fileID: 1817743726}
 --- !u!61 &597693319
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -317,12 +326,24 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 597693317}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.988, y: -1.198, z: -2}
+  m_LocalPosition: {x: 2.96, y: -2.06, z: -2}
   m_LocalScale: {x: 0.25796872, y: 0.8375, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &874655263 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7041317509620380193, guid: 5dee435a83716400a84c79435f25edcf,
+    type: 3}
+  m_PrefabInstance: {fileID: 1641118461}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 166242ae3be3740d8b50c45505310e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &891928985
 GameObject:
   m_ObjectHideFlags: 0
@@ -690,7 +711,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7dc56c5b9f4044f3a16c4ea3c323e32, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Inventory: {fileID: 0}
+  Inventory: {fileID: 874655263}
+  popup: {fileID: 1817743726}
 --- !u!61 &1601519002
 BoxCollider2D:
   m_ObjectHideFlags: 0

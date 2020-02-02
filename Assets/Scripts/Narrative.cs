@@ -99,6 +99,7 @@ public class Narrative : MonoBehaviour,
             if(eventData.button == PointerEventData.InputButton.Right)
             {
                 popup.LoadConversation(GetConversation());
+                Cursor.SetCursor(null, Vector2.zero, CursorMode.Auto);
             }
         }
     }
