@@ -1,7 +1,4 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-using UnityEngine.UI;
+﻿using UnityEngine;
 
 public class PopupOpener : MonoBehaviour
 {
@@ -15,8 +12,6 @@ public class PopupOpener : MonoBehaviour
             if (animator != null) {
                 animator.SetBool("open", value);
             }
-            Text text = Popup.GetComponentInChildren<Text>();
-            text.text = dialogEngine.getConversation("testKey").getLines()[0].getText();
         }
     }
 
@@ -30,8 +25,6 @@ public class PopupOpener : MonoBehaviour
 
                 animator.SetBool("open", !isOpen);
             }
-            Text text = Popup.GetComponentInChildren<Text>();
-            text.text = dialogEngine.getConversation("testKey").getLines()[0].getText();
 
         }
     }
