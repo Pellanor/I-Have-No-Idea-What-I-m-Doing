@@ -164,5 +164,197 @@
             "speaker": "harry",
             "text": "This can't be... what happens now?"
         }
+    ],
+    "voice_chip": [
+        {
+            "speaker": "voice_chip",
+            "text": "An astonishgly gold bit of machinery that reminds me, somehow, of music. Its impossibly smooth surface shimmers in the weak light. A small engraving at one end reads 'insert this side up.'"
+        }
+    ],
+    "usb_drive": [
+        {
+            "speaker": "usb_drive",
+            "text": "A small, 128PB USB drive shaped like a stick of gum."
+        }
+    ],
+    "optical_sensor_array": [
+        {
+            "speaker": "optical_sensor_array",
+            "text": "Oddly enough, this optical sensor almost perfectly resembles a human eye but instead of a fleshy, stringy ocular nerve fiber optic cables dangle limply from the base. It's uncomfortably squishy."
+        }
+    ],
+    "robot_arm_1": [
+        {
+            "speaker": "robot_arm_1",
+            "text": "Another mechanical arm, the forearm of which is strapped with an imposing device not unlike a switch blade. Dried flakes of rust—or is that blood?—are crusted around the release mechanism. The hand is clutching something tightly, but pry it open to see what it is."
+        }
+    ],
+    "robot_arm_2": [
+        {
+            "speaker": "robot_arm_2",
+            "text": "It looks like a mechanical limb, but a gaping cavity in the forearm suggests something is missing."
+        }
+    ],
+    "power_cell": [
+        {
+            "speaker": "power_cell",
+            "text": "A small cylindrical drum covered in a conerning number of warnings and hazard symbols."
+        }
+    ],
+    "toilet": [
+        {
+            "speaker": "toilet",
+            "text": "It's a toilet, but it's dangerously low on toilet paper..."
+        }
+    ],
+    "bed": [
+        {
+            "speaker": "bed",
+            "text": "Is this where I sleep?"
+        }
+    ],
+    "bedroom_windows": [
+        {
+            "speaker": "windows",
+            "text": "Thick bars stretch across the windows, but it doesn't matter. I can't see anything beyond them anyway."
+        }
+    ],
+    "photograph": [
+        {
+            "speaker": "photograph",
+            "text": "It's a photograph of me next to a woman and child. I don't remember this..."
+        }
+    ],
+    "food_tray": [
+        {
+            "speaker": "food_tray",
+            "text": "A tray of food that smells terribly. How long has it been there?"
+        }
+    ],
+    "notches": [
+        {
+            "speaker": "notches",
+            "text": "There are X notches on the wall. Did I make those?"
+        }
+    ],
+    "blood_stain": [
+        {
+            "speaker": "blood_stain",
+            "text": "A dark red stain. It smells foul."
+        }
+    ],
+    "door": [
+        {
+            "speaker": "door",
+            "text": "A thick, metal door. It looks unlocked. I wonder what's beyond?"
+        }
+    ],
+    "mirror": [
+        {
+            "speaker": "mirror",
+            "text": "A cracked mirror with a large piece missing. I don't even recognize my own reflection."
+        }
+    ],
+    "photograph_fallen": [
+        {
+            "speaker": "photograph_fallen",
+            "text": "The photograph of you and two people you do not remember has fallen. Scrawled on its back are the words 'Don't forget."
+        }
+    ],
+    "camera": [
+        {
+            "speaker": "camera",
+            "text": "A glistening crystal iris oscillates back and forth on a metal arm. Watching."
+        }
+    ],
+    "computer_robot_off": [
+        {
+            "speaker": "computer_off",
+            "text": "It looks like a computer terminal, but without power I can't be sure."
+        }
+    ],
+    "computer_robot_on": [
+        {
+            "speaker": "computer_on",
+            "text": "Lines of cryptic text flash across a viridescent screen."
+        }
+    ],
+    "power_cable": [
+        {
+            "speaker": "power_cable",
+            "text": "A thick cable snakes between the chair and a socket caked in rust."
+        }
+    ],
+    "desk_with_voice_chip": [
+        {
+            "speaker": "desk_with_voice_chip",
+            "text": "A desk and some tools... what's that golden object?"
+        }
+    ],
+    "parts_lying_around": [
+        {
+            "speaker": "parts_lying_around",
+            "text": "Struts, bolts, and wires are scattered around. Someone made a mess."
+        }
+    ],
+    "robot_room_windows": [
+        {
+            "speaker": "windows",
+            "text": "I can't see anything beyond, but why do I have the feeling that's because there is nothing to see?"
+        }
+    ],
+    "instruction_manual": [
+        {
+            "speaker": "instruction_manual",
+            "text": "A cracked and faded manual full of schematics I cannot comprehend but look vaguely related to this robot. The index lists several sections on 'Organic Termination Protocols' but those pages appear to be missing."
+        }
+    ],
+    "jez3bel": [
+        {
+            "speaker": "jez3bel",
+            "text": "A mechanical humanoid lays in a surgeons chair. Her arms are missing, and the frayed wiring and shorn struts suggest it wasn't a peaceful removal. In her chest is an empty rectangular apartment."
+        }
+    ],
+    "generator": [
+        {
+            "speaker": "generator",
+            "text": "A hulking colossus of tubs hums and rattles behind glass. When I stand close, the hairs on my arms and head rise, pulled by some great electromagnetic force. Carbon scoring along the glass indicates some kind of explosion?"
+        }
+    ],
+    "computer_terminal": [
+        {
+            "speaker": "computer_terminal",
+            "text": "A computer terminal hums patiently, awaiting some kind of input."
+        }
+    ],
+    "locker": [
+        {
+            "speaker": "locker",
+            "text": "A scarred and battered plasteel chest. I'm guessing the red LED indicates it is locked and sealed. I wonder what's inside?"
+        }
+    ],
+    "3d_printer": [
+        {
+            "speaker": "3D_printer",
+            "text": "An strange contraption with a spherical, transparent dome atop a cylindrical platform. Looking inside I can see rows and rows of copper-bound coils. I have no idea what this does."
+        }
+    ],
+    "security_badge": [
+        {
+            "speaker": "security_badge",
+            "text": "It looks like some kind of security badge, but the photo of me seems decades old. 'Harry Seldon, Chief Engineer'? Is that me?"
+        }
+    ],
+    "spent_power_cell": [
+        {
+            "speaker": "spent_power_cell",
+            "text": "A strange device lies on the floor next to the blast mark on the generator's glass shielding. It's still warm to the touch."
+        }
+    ],
+    "toolbox": [
+        {
+            "speaker": "toolbox",
+            "text": "A rusted-stained toolbox with a scattering of tools."
+        }
     ]
 }
