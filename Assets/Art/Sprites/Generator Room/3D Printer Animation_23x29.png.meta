@@ -1,0 +1,1075 @@
+fileFormatVersion: 2
+guid: 95a4d73d509b6e9468b358c4d3d70996
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 245492592742493936
+    second: 3D Printer Animation_23x29_0
+  - first:
+      213: -6518342867563167744
+    second: 3D Printer Animation_23x29_1
+  - first:
+      213: 3076722387438075038
+    second: 3D Printer Animation_23x29_2
+  - first:
+      213: -1224078383171846422
+    second: 3D Printer Animation_23x29_3
+  - first:
+      213: -2823667368435266218
+    second: 3D Printer Animation_23x29_4
+  - first:
+      213: -464538986462095092
+    second: 3D Printer Animation_23x29_5
+  - first:
+      213: 8776219679823326464
+    second: 3D Printer Animation_23x29_6
+  - first:
+      213: 7163119213005581401
+    second: 3D Printer Animation_23x29_7
+  - first:
+      213: 5832054297212884283
+    second: 3D Printer Animation_23x29_8
+  - first:
+      213: 5071365748894741136
+    second: 3D Printer Animation_23x29_9
+  - first:
+      213: -5199821389842363376
+    second: 3D Printer Animation_23x29_10
+  - first:
+      213: 7738722302953018216
+    second: 3D Printer Animation_23x29_11
+  - first:
+      213: -2027272548085387327
+    second: 3D Printer Animation_23x29_12
+  - first:
+      213: -6523327049616788453
+    second: 3D Printer Animation_23x29_13
+  - first:
+      213: 3278806600156478992
+    second: 3D Printer Animation_23x29_14
+  - first:
+      213: -7167242415554665406
+    second: 3D Printer Animation_23x29_15
+  - first:
+      213: -1651385476420512930
+    second: 3D Printer Animation_23x29_16
+  - first:
+      213: 1232160013535885021
+    second: 3D Printer Animation_23x29_17
+  - first:
+      213: -317665781798714309
+    second: 3D Printer Animation_23x29_18
+  - first:
+      213: -6272346195562605617
+    second: 3D Printer Animation_23x29_19
+  - first:
+      213: 6423491217331453879
+    second: 3D Printer Animation_23x29_20
+  - first:
+      213: 1612561973210923300
+    second: 3D Printer Animation_23x29_21
+  - first:
+      213: 990008317921083811
+    second: 3D Printer Animation_23x29_22
+  - first:
+      213: 5195137923298709495
+    second: 3D Printer Animation_23x29_23
+  - first:
+      213: -7291695927339708432
+    second: 3D Printer Animation_23x29_24
+  - first:
+      213: 3141020129416156283
+    second: 3D Printer Animation_23x29_25
+  - first:
+      213: 3847814067614631500
+    second: 3D Printer Animation_23x29_26
+  - first:
+      213: -5798189102269921
+    second: 3D Printer Animation_23x29_27
+  - first:
+      213: 1200766157104693259
+    second: 3D Printer Animation_23x29_28
+  - first:
+      213: 2491780366204724136
+    second: 3D Printer Animation_23x29_29
+  - first:
+      213: -8682738156632302725
+    second: 3D Printer Animation_23x29_30
+  - first:
+      213: 2083715578195998626
+    second: 3D Printer Animation_23x29_31
+  - first:
+      213: -9197625482581646083
+    second: 3D Printer Animation_23x29_32
+  - first:
+      213: -2852029865038535434
+    second: 3D Printer Animation_23x29_33
+  - first:
+      213: 3046001525393453721
+    second: 3D Printer Animation_23x29_34
+  - first:
+      213: 3174055519787412669
+    second: 3D Printer Animation_23x29_35
+  - first:
+      213: -759178688318580614
+    second: 3D Printer Animation_23x29_36
+  - first:
+      213: -3097480537512663966
+    second: 3D Printer Animation_23x29_37
+  - first:
+      213: 4769667891209304775
+    second: 3D Printer Animation_23x29_38
+  - first:
+      213: -2135883334244883283
+    second: 3D Printer Animation_23x29_39
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 116
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fee761663a286300800000000000000
+      internalID: 245492592742493936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_1
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 116
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00042b692b13a85a0800000000000000
+      internalID: -6518342867563167744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 116
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9cfcbfc5b6b2ba20800000000000000
+      internalID: 3076722387438075038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_3
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 116
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aeebec92233330fe0800000000000000
+      internalID: -1224078383171846422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_4
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 116
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 65dcd842d7150d8d0800000000000000
+      internalID: -2823667368435266218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_5
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 116
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c095b97c040ad89f0800000000000000
+      internalID: -464538986462095092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_6
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 116
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00d69a6ec456bc970800000000000000
+      internalID: 8776219679823326464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_7
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 116
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95c29fee8f2886360800000000000000
+      internalID: 7163119213005581401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 87
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b351a28db7e9fe050800000000000000
+      internalID: 5832054297212884283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_9
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 87
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09234f4874c116640800000000000000
+      internalID: 5071365748894741136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_10
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 87
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01cc7faeef586d7b0800000000000000
+      internalID: -5199821389842363376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_11
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 87
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86358eadee6756b60800000000000000
+      internalID: 7738722302953018216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_12
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 87
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cf2874cb5eadd3e0800000000000000
+      internalID: -2027272548085387327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_13
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 87
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b14f4e54c9c7875a0800000000000000
+      internalID: -6523327049616788453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_14
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 87
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e78812b39a08d20800000000000000
+      internalID: 3278806600156478992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_15
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 87
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24460c92ff6d88c90800000000000000
+      internalID: -7167242415554665406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 58
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5357ba98a91519e0800000000000000
+      internalID: -1651385476420512930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_17
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 58
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd63f390103891110800000000000000
+      internalID: 1232160013535885021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_18
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 58
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b34479e87ac679bf0800000000000000
+      internalID: -317665781798714309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_19
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 58
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc3d7311e5624f8a0800000000000000
+      internalID: -6272346195562605617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_20
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 58
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bff1e2aa33d42950800000000000000
+      internalID: 6423491217331453879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_21
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 58
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4214a872298f06610800000000000000
+      internalID: 1612561973210923300
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_22
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 58
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a14e52e1573dbd00800000000000000
+      internalID: 990008317921083811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_23
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 58
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ff416d8a66d81840800000000000000
+      internalID: 5195137923298709495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 29
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff01c8ef21beca90800000000000000
+      internalID: -7291695927339708432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_25
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 29
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7493367a25279b20800000000000000
+      internalID: 3141020129416156283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_26
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 29
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c46cbe5028e266530800000000000000
+      internalID: 3847814067614631500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_27
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 29
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1af736e3966beff0800000000000000
+      internalID: -5798189102269921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_28
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 29
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b00498c357af9a010800000000000000
+      internalID: 1200766157104693259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_29
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 29
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3ece18a05949220800000000000000
+      internalID: 2491780366204724136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_30
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 29
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7b933056a7b08780800000000000000
+      internalID: -8682738156632302725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_31
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 29
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7f1534748daec10800000000000000
+      internalID: 2083715578195998626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df4e3adca587b5080800000000000000
+      internalID: -9197625482581646083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_33
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 0
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4a29dc2fd8b68d0800000000000000
+      internalID: -2852029865038535434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_34
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 992ff5abf32954a20800000000000000
+      internalID: 3046001525393453721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_35
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 0
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dbceb4aada28c0c20800000000000000
+      internalID: 3174055519787412669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_36
+      rect:
+        serializedVersion: 2
+        x: 92
+        y: 0
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7859b9510bd675f0800000000000000
+      internalID: -759178688318580614
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_37
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 0
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2642fdebcd98305d0800000000000000
+      internalID: -3097480537512663966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_38
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 0
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cafd102da3413240800000000000000
+      internalID: 4769667891209304775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3D Printer Animation_23x29_39
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 23
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da428a48c61db52e0800000000000000
+      internalID: -2135883334244883283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
