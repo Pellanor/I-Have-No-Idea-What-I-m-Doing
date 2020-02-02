@@ -258,6 +258,7 @@ GameObject:
   - component: {fileID: 96744796}
   - component: {fileID: 96744795}
   - component: {fileID: 96744798}
+  - component: {fileID: 96744799}
   m_Layer: 0
   m_Name: Voice Chip
   m_TagString: Untagged
@@ -371,6 +372,33 @@ MonoBehaviour:
   ConversationKey: voice_chip
   popup: {fileID: 930324668}
   conversations: []
+--- !u!114 &96744799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96744794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 737d9d6b55050454cbf4966b20af39cf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Inventory: {fileID: 525854520}
+  popup: {fileID: 930324668}
+  pickup: VoiceChip
+--- !u!114 &525854520 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7041317509620380193, guid: 5dee435a83716400a84c79435f25edcf,
+    type: 3}
+  m_PrefabInstance: {fileID: 930324667}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 166242ae3be3740d8b50c45505310e3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &593323429
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,6 +658,7 @@ GameObject:
   - component: {fileID: 941524536}
   - component: {fileID: 941524535}
   - component: {fileID: 941524538}
+  - component: {fileID: 941524539}
   m_Layer: 0
   m_Name: Jezebel
   m_TagString: Untagged
@@ -743,6 +772,21 @@ MonoBehaviour:
   ConversationKey: jez3bel
   popup: {fileID: 930324668}
   conversations: []
+--- !u!114 &941524539
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941524534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dc56c5b9f4044f3a16c4ea3c323e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Inventory: {fileID: 525854520}
+  popup: {fileID: 930324668}
+  generatorDoor: {fileID: 1044113400}
 --- !u!1 &1044113397
 GameObject:
   m_ObjectHideFlags: 0

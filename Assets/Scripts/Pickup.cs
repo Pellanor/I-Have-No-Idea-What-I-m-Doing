@@ -3,14 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class RobotTorso : MonoBehaviour,
+public class Pickup : MonoBehaviour,
                           IPointerDownHandler,
+                          // IPointerUpHandler,
                           IPointerEnterHandler,
                           IPointerExitHandler
 {
     public Inventory Inventory;
     public PopupConversation popup;
-    public GoThroughDoor generatorDoor;
+    public string pickup;
     
     Texture2D HandCursor;
     Vector2 HandCursorOffset = new Vector2(5, 5);
@@ -19,7 +20,7 @@ public class RobotTorso : MonoBehaviour,
     void Start()
     {
         addPhysics2DRaycaster();
-        this.HandCursor = (Texture2D)Resources.Load("MouseCursors/new-hand32");
+        this.HandCursor = (Texture2D)Resources.Load("MouseCursors/grabhand32");
     }
 
     /**
@@ -42,6 +43,14 @@ public class RobotTorso : MonoBehaviour,
     {
         Debug.Log("Cursor entering: " + eventData.pointerCurrentRaycast.gameObject.name);
         Cursor.SetCursor(HandCursor, HandCursorOffset, CursorMode.Auto);
+        // if(Enterable)
+        // {
+        //     Cursor.SetCursor(EnterCursorSprite, EnterCursorOffset, CursorMode.Auto);
+        // }
+        // else
+        // {
+        //     Cursor.SetCursor(NoEntryCursorSprite, NoEntryCursorOffset, CursorMode.Auto);
+        // }
     }
 
     /**
@@ -64,24 +73,18 @@ public class RobotTorso : MonoBehaviour,
       {
         Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
 
-        string name = this.Inventory.GetCurrentlySelectedName();
-        // GameObject selected = this.Inventory.GetCurrentlySelected();
-        // RobotPartHandler robotPart = selected.GetComponent<RobotPartHandler>();
-
-        if(name == null || name == "")
+        if(pickup == null || pickup == "")
         {
-          popup.LoadConversation("select_inventory");
-        } else if(name == "VoiceChip") {
-          popup.LoadConversation("jez_powerup");
-          generatorDoor.Enterable = true;
-        } else if(name == "PowerCell") {
-
-        } else if(name == "Arm1") {
-
-        } else if(name == "Arm2") {
-
-        } else if(name == "OpticalSensorArray") {
-
+        } else if(pickup == "VoiceChip") {
+            this.Inventory.PickupVoiceChip();
+        } else if(pickup == "PowerCell") {
+            this.Inventory.PickupPowerCell();
+        } else if(pickup == "Arm1") {
+            this.Inventory.PickupArm1();
+        } else if(pickup == "Arm2") {
+            this.Inventory.PickupArm2();
+        } else if(pickup == "OpticalSensorArray") {
+            this.Inventory.PickupOpticalSensorArray();
         } else {
           popup.LoadConversation("cannot_do");
         }
