@@ -241,8 +241,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   Readable: 1
   ConversationKey: instruction_manual
   popup: {fileID: 930324668}
@@ -257,8 +257,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   popup: {fileID: 930324668}
 --- !u!1 &96744794
 GameObject:
@@ -380,8 +380,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   Readable: 1
   ConversationKey: voice_chip
   popup: {fileID: 930324668}
@@ -396,8 +396,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 737d9d6b55050454cbf4966b20af39cf, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   Inventory: {fileID: 525854520}
   popup: {fileID: 930324668}
   pickup: VoiceChip
@@ -411,8 +411,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 166242ae3be3740d8b50c45505310e3b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &593323429
 GameObject:
   m_ObjectHideFlags: 0
@@ -658,8 +658,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc66720d58c885a4e820d6a55838d667, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &941524534
 GameObject:
   m_ObjectHideFlags: 0
@@ -674,6 +674,7 @@ GameObject:
   - component: {fileID: 941524538}
   - component: {fileID: 941524539}
   - component: {fileID: 941524540}
+  - component: {fileID: 941524541}
   m_Layer: 0
   m_Name: Jezebel
   m_TagString: Untagged
@@ -781,8 +782,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   Readable: 1
   ConversationKey: jez3bel
   popup: {fileID: 930324668}
@@ -795,14 +796,14 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941524534}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 0}
   m_Controller: {fileID: 9100000, guid: 2ccd35aee78b6d24e9b6bc3f4923875d, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -816,11 +817,26 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b13ad9404ca081f44abd532862faf872, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
-  popup: {fileID: 0}
-  anim: {fileID: 0}
-  roomLight: {fileID: 0}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  popup: {fileID: 930324668}
+  anim: {fileID: 941524539}
+  roomLight: {fileID: 1468114158}
+--- !u!114 &941524541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 941524534}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7dc56c5b9f4044f3a16c4ea3c323e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Inventory: {fileID: 525854520}
+  popup: {fileID: 930324668}
+  generatorDoor: {fileID: 1044113400}
 --- !u!1 &1044113397
 GameObject:
   m_ObjectHideFlags: 0
@@ -889,8 +905,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf276704cccc34243bf9478a52761c8b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   EnterCursorSprite: {fileID: 2800000, guid: 6e54d9fe874e34aebaa4867d4c2b3370, type: 3}
   EnterCursorOffset: {x: 5, y: 5}
   NoEntryCursorSprite: {fileID: 2800000, guid: 3d3cf9af2757942a6b14f0f49d6b6d8a, type: 3}
@@ -1034,8 +1050,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf276704cccc34243bf9478a52761c8b, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   EnterCursorSprite: {fileID: 2800000, guid: 6e54d9fe874e34aebaa4867d4c2b3370, type: 3}
   EnterCursorOffset: {x: 5, y: 5}
   NoEntryCursorSprite: {fileID: 0}
@@ -1252,7 +1268,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage:
+  m_WarningMessage: 
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -1365,8 +1381,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -1384,8 +1400,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
@@ -1523,8 +1539,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   Readable: 1
   ConversationKey: computer_robot_off
   popup: {fileID: 930324668}
@@ -1539,8 +1555,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   popup: {fileID: 930324668}
 --- !u!1 &1720554563
 GameObject:
@@ -1670,8 +1686,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   Readable: 1
   ConversationKey: power_cable
   popup: {fileID: 930324668}
@@ -1686,8 +1702,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
-  m_Name:
-  m_EditorClassIdentifier:
+  m_Name: 
+  m_EditorClassIdentifier: 
   popup: {fileID: 930324668}
 --- !u!1 &1853606316
 GameObject:

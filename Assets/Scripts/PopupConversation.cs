@@ -22,13 +22,17 @@ public class PopupConversation : MonoBehaviour
     private Dictionary<string, Sprite> faces = new Dictionary<string, Sprite>();
 
     public void Start() {
-        foreach(NamedImage pic in pictures) {
-            faces.Add(pic.name, pic.image);
+        if (faces.Count == 0)
+        {
+            foreach (NamedImage pic in pictures)
+            {
+                faces.Add(pic.name, pic.image);
+            }
         }
     }
 
-    public void Update() {
-        
+    public void Update() { 
+
         if (opener.IsOpen() && Input.GetMouseButtonDown(0)) {
             Next();
         }
@@ -36,6 +40,13 @@ public class PopupConversation : MonoBehaviour
     }
 
     public void LoadConversation(string conversationKey) {
+        if (faces.Count == 0)
+        {
+            foreach (NamedImage pic in pictures)
+            {
+                faces.Add(pic.name, pic.image);
+            }
+        }
         Debug.Log("Loading: " + conversationKey);
         conversation = engine.getConversationIter(conversationKey);
         if (conversation.MoveNext()) {

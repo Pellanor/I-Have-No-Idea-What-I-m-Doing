@@ -11,11 +11,13 @@ public class EndGameController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        if(GameState.IsState(GameState.State.FINAL_STATE))
+        anim.enabled = false;
+        if(GameState.IsState(GameState.State.GENERATOR_RUNNING))
         {
+            anim.enabled = true;
             anim.SetTrigger("jezebelStands");
-            popup.LoadConversation("final sequence");
-            GameState.SetState(GameState.State.FINAL_FINAL_STATE);
+            popup.LoadConversation("final_sequence");
+            GameState.SetState(GameState.State.FINAL_STATE);
 
         }
         if(GameState.IsState(GameState.State.GENERATOR_RUNNING))
@@ -27,7 +29,15 @@ public class EndGameController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(GameState.IsState(GameState.State.FINAL_FINAL_STATE))
+        if (GameState.IsState(GameState.State.FINAL_STATE))
+        {
+            if (popup.opener.IsOpen() == true)
+            {
+                GameState.SetState(GameState.State.FINAL_FINAL_STATE);
+            }
+        }
+
+        if (GameState.IsState(GameState.State.FINAL_FINAL_STATE))
         {
             if (popup.opener.IsOpen() == false)
             {
