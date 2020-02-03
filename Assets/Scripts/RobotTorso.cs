@@ -5,12 +5,12 @@ using UnityEngine.EventSystems;
 
 public class RobotTorso : MonoBehaviour,
                           IPointerDownHandler,
-                          // IPointerUpHandler,
                           IPointerEnterHandler,
                           IPointerExitHandler
 {
     public Inventory Inventory;
     public PopupConversation popup;
+    public GoThroughDoor generatorDoor;
     
     Texture2D HandCursor;
     Vector2 HandCursorOffset = new Vector2(5, 5);
@@ -19,7 +19,7 @@ public class RobotTorso : MonoBehaviour,
     void Start()
     {
         addPhysics2DRaycaster();
-        this.HandCursor = (Texture2D)Resources.Load("MouseCursors/grabhand32");
+        this.HandCursor = (Texture2D)Resources.Load("MouseCursors/new-hand32");
     }
 
     /**
@@ -42,14 +42,6 @@ public class RobotTorso : MonoBehaviour,
     {
         Debug.Log("Cursor entering: " + eventData.pointerCurrentRaycast.gameObject.name);
         Cursor.SetCursor(HandCursor, HandCursorOffset, CursorMode.Auto);
-        // if(Enterable)
-        // {
-        //     Cursor.SetCursor(EnterCursorSprite, EnterCursorOffset, CursorMode.Auto);
-        // }
-        // else
-        // {
-        //     Cursor.SetCursor(NoEntryCursorSprite, NoEntryCursorOffset, CursorMode.Auto);
-        // }
     }
 
     /**
@@ -80,7 +72,8 @@ public class RobotTorso : MonoBehaviour,
         {
           popup.LoadConversation("select_inventory");
         } else if(name == "VoiceChip") {
-
+          popup.LoadConversation("jez_powerup");
+          generatorDoor.Enterable = true;
         } else if(name == "PowerCell") {
 
         } else if(name == "Arm1") {

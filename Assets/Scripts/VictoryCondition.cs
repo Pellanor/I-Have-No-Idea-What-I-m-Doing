@@ -1,22 +1,17 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class VictoryCondition : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string NextSceneName;
+    public GameState.State StateToSet;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 
     public void DoVictory() {
-        Debug.Log("VICTORY!!!!!! ^_^");
+
+        GameState.SetState(StateToSet);
+        SceneManager.LoadScene(NextSceneName);
     }
 }

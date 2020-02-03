@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d18a385274f309b4685465876dd6f932, type: 3}
+  m_Name: testWire
+  m_EditorClassIdentifier: 
+  m_Sprite: {fileID: -2081058696390271509, guid: 4025f9c415933304bb537d3e5970d6e2,
+    type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Transform:
+    e00: 1
+    e01: 0
+    e02: 0
+    e03: 0
+    e10: 0
+    e11: 1
+    e12: 0
+    e13: 0
+    e20: 0
+    e21: 0
+    e22: 1
+    e23: 0
+    e30: 0
+    e31: 0
+    e32: 0
+    e33: 1
+  m_InstancedGameObject: {fileID: 0}
+  m_Flags: 1
+  m_ColliderType: 1
+  tiles:
+  - {fileID: 11400000, guid: 0d288976bbe4790459794ea4d1cd6bef, type: 2}
+  - {fileID: 11400000, guid: 6b3b8040a664bea43910637000996ebf, type: 2}
+  - {fileID: 11400000, guid: ed1a812b4e6970642a342446f281dc07, type: 2}
+  - {fileID: 11400000, guid: 78873be08053b8b43a7f21185a9218c4, type: 2}
+  - {fileID: 11400000, guid: 0a26ff1fafe193c41a6712c6d1a06b46, type: 2}

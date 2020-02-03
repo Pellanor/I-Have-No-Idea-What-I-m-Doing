@@ -133,6 +133,7 @@ GameObject:
   - component: {fileID: 63057258}
   - component: {fileID: 63057257}
   - component: {fileID: 63057260}
+  - component: {fileID: 63057261}
   m_Layer: 0
   m_Name: Instruction Manual
   m_TagString: Untagged
@@ -240,12 +241,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   Readable: 1
   ConversationKey: instruction_manual
   popup: {fileID: 930324668}
   conversations: []
+--- !u!114 &63057261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 63057256}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  popup: {fileID: 930324668}
 --- !u!1 &96744794
 GameObject:
   m_ObjectHideFlags: 0
@@ -258,6 +272,7 @@ GameObject:
   - component: {fileID: 96744796}
   - component: {fileID: 96744795}
   - component: {fileID: 96744798}
+  - component: {fileID: 96744799}
   m_Layer: 0
   m_Name: Voice Chip
   m_TagString: Untagged
@@ -365,12 +380,39 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   Readable: 1
   ConversationKey: voice_chip
   popup: {fileID: 930324668}
   conversations: []
+--- !u!114 &96744799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96744794}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 737d9d6b55050454cbf4966b20af39cf, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  Inventory: {fileID: 525854520}
+  popup: {fileID: 930324668}
+  pickup: VoiceChip
+--- !u!114 &525854520 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7041317509620380193, guid: 5dee435a83716400a84c79435f25edcf,
+    type: 3}
+  m_PrefabInstance: {fileID: 930324667}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 166242ae3be3740d8b50c45505310e3b, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!1 &593323429
 GameObject:
   m_ObjectHideFlags: 0
@@ -616,8 +658,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fc66720d58c885a4e820d6a55838d667, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
 --- !u!1 &941524534
 GameObject:
   m_ObjectHideFlags: 0
@@ -739,8 +781,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   Readable: 1
   ConversationKey: jez3bel
   popup: {fileID: 930324668}
@@ -760,7 +802,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: 
+  m_WarningMessage:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -774,8 +816,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b13ad9404ca081f44abd532862faf872, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   popup: {fileID: 0}
   anim: {fileID: 0}
   roomLight: {fileID: 0}
@@ -847,8 +889,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf276704cccc34243bf9478a52761c8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   EnterCursorSprite: {fileID: 2800000, guid: 6e54d9fe874e34aebaa4867d4c2b3370, type: 3}
   EnterCursorOffset: {x: 5, y: 5}
   NoEntryCursorSprite: {fileID: 2800000, guid: 3d3cf9af2757942a6b14f0f49d6b6d8a, type: 3}
@@ -992,8 +1034,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cf276704cccc34243bf9478a52761c8b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   EnterCursorSprite: {fileID: 2800000, guid: 6e54d9fe874e34aebaa4867d4c2b3370, type: 3}
   EnterCursorOffset: {x: 5, y: 5}
   NoEntryCursorSprite: {fileID: 0}
@@ -1210,7 +1252,7 @@ Animator:
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
   m_LinearVelocityBlending: 0
-  m_WarningMessage: 
+  m_WarningMessage:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
@@ -1323,8 +1365,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_HorizontalAxis: Horizontal
   m_VerticalAxis: Vertical
   m_SubmitButton: Submit
@@ -1342,8 +1384,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   m_FirstSelected: {fileID: 0}
   m_sendNavigationEvents: 1
   m_DragThreshold: 10
@@ -1373,6 +1415,7 @@ GameObject:
   - component: {fileID: 1628862874}
   - component: {fileID: 1628862873}
   - component: {fileID: 1628862876}
+  - component: {fileID: 1628862877}
   m_Layer: 0
   m_Name: Computer Console
   m_TagString: Untagged
@@ -1480,12 +1523,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   Readable: 1
   ConversationKey: computer_robot_off
   popup: {fileID: 930324668}
   conversations: []
+--- !u!114 &1628862877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1628862872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  popup: {fileID: 930324668}
 --- !u!1 &1720554563
 GameObject:
   m_ObjectHideFlags: 0
@@ -1498,6 +1554,7 @@ GameObject:
   - component: {fileID: 1720554565}
   - component: {fileID: 1720554564}
   - component: {fileID: 1720554567}
+  - component: {fileID: 1720554568}
   m_Layer: 0
   m_Name: Power Conduit
   m_TagString: Untagged
@@ -1613,12 +1670,25 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d00e41085a18c485aa86086730912d7c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
+  m_Name:
+  m_EditorClassIdentifier:
   Readable: 1
   ConversationKey: power_cable
   popup: {fileID: 930324668}
   conversations: []
+--- !u!114 &1720554568
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1720554563}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3d48423baaf1456486d58c0201d0145, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  popup: {fileID: 930324668}
 --- !u!1 &1853606316
 GameObject:
   m_ObjectHideFlags: 0

@@ -3,22 +3,24 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.EventSystems;
 
-public class NoPickup : MonoBehaviour,
+public class Pickup : MonoBehaviour,
                           IPointerDownHandler,
                           // IPointerUpHandler,
                           IPointerEnterHandler,
                           IPointerExitHandler
 {
+    public Inventory Inventory;
+    public PopupConversation popup;
+    public string pickup;
     
     Texture2D HandCursor;
     Vector2 HandCursorOffset = new Vector2(5, 5);
-    public PopupConversation popup;
     
     // Start is called before the first frame update
     void Start()
     {
         addPhysics2DRaycaster();
-        this.HandCursor = (Texture2D)Resources.Load("MouseCursors/new-hand32");
+        this.HandCursor = (Texture2D)Resources.Load("MouseCursors/grabhand32");
     }
 
     /**
@@ -41,6 +43,14 @@ public class NoPickup : MonoBehaviour,
     {
         Debug.Log("Cursor entering: " + eventData.pointerCurrentRaycast.gameObject.name);
         Cursor.SetCursor(HandCursor, HandCursorOffset, CursorMode.Auto);
+        // if(Enterable)
+        // {
+        //     Cursor.SetCursor(EnterCursorSprite, EnterCursorOffset, CursorMode.Auto);
+        // }
+        // else
+        // {
+        //     Cursor.SetCursor(NoEntryCursorSprite, NoEntryCursorOffset, CursorMode.Auto);
+        // }
     }
 
     /**
@@ -61,8 +71,25 @@ public class NoPickup : MonoBehaviour,
     {
       if(eventData.button == PointerEventData.InputButton.Left)
       {
+        Debug.Log("Clicked: " + eventData.pointerCurrentRaycast.gameObject.name);
+
+        if(pickup == null || pickup == "")
+        {
+        } else if(pickup == "VoiceChip") {
+            this.Inventory.PickupVoiceChip();
+        } else if(pickup == "PowerCell") {
+            this.Inventory.PickupPowerCell();
+        } else if(pickup == "Arm1") {
+            this.Inventory.PickupArm1();
+        } else if(pickup == "Arm2") {
+            this.Inventory.PickupArm2();
+        } else if(pickup == "OpticalSensorArray") {
+            this.Inventory.PickupOpticalSensorArray();
+        } else {
           popup.LoadConversation("cannot_do");
-          ResetCursor();
+        }
+        //robotPart.Attach();
+        ResetCursor();
       }
     }
 
