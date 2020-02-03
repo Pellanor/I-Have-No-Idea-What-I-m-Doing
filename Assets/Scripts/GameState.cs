@@ -13,6 +13,8 @@ public class GameState
         USB_IN_COMPUTER,
         COMPUTER_FULL_ACCESS,
         HAS_POWER_CELL,
+        FINAL_STATE,
+        FINAL_FINAL_STATE
     }
 
     private static HashSet<State> states = new HashSet<State>();
